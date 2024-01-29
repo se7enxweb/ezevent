@@ -1,0 +1,28 @@
+{
+    "name": "se7enxweb/ezevent",
+    "description": "eZ Publish Legacy extension which provides a simple solution for extending thet default eZ Publish Web Shop within an well developed extension. Great for smart developers!",
+    "type": "ezpublish-legacy-extension",
+    "keywords": [ "eZ Publish", "eZ Publish Legacy", "eZ Publish Platform", "workflow", "event", "trigger", "extension", "solution" ],
+    "homepage": "https://github.com/se7enxweb/ezevent",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name" : "7x",
+            "homepage": "https://se7enx.com",
+            "email": "info@se7enx.com",
+            "role": "Developer"
+        },
+        {
+            "name": "eZ Publish dev-team & eZ Community",
+            "homepage": "https://github.com/se7enxweb/ezevent"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0.0",
+        "se7enxweb/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "ezevent"
+    }
+}
